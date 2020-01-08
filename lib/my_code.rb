@@ -74,7 +74,7 @@ def  map_to_square(source_array)
 
  while i < source_array.length do 
   
-  if starting_poin == 100
+  if starting_point == 100
          
       starting_point += source_array[i] 
       
