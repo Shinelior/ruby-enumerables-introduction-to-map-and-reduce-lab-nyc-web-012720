@@ -85,9 +85,10 @@ def  map_to_square(source_array)
    
  end 
  if starting_point == 100
-   return 
- return starting_point
-  
+   return starting_point
+ else
+   return total
+  end
  end
  
  def  reduce_to_all_true(source_array)
