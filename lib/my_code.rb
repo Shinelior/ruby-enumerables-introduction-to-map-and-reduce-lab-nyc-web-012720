@@ -64,7 +64,7 @@ def  map_to_square(source_array)
  
  
  
- def reduce_to_total(source_array , starting_point = 100)
+ def reduce_to_total(source_array , starting_point = 0)
    #source_array.reduce{|x,starting_point|  starting_point + x}
    
    #source_array.reduce(:+)
@@ -74,8 +74,8 @@ def  map_to_square(source_array)
 
  while i < source_array.length do 
   
-  if starting_point == 100
-         
+  if starting_point != 0  
+    
       starting_point += source_array[i] 
      
     else
@@ -84,7 +84,7 @@ def  map_to_square(source_array)
      i += 1 
    
  end 
- if starting_point != 100
+ if starting_point == 0
    return total
  else
    return  starting_point
