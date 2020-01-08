@@ -79,7 +79,7 @@ def  map_to_square(source_array)
       starting_point += source_array[i] 
       
     else
-      
+     total += source_array[i]
  
      i += 1 
    
