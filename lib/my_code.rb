@@ -84,7 +84,8 @@ def  map_to_square(source_array)
      i += 1 
    
  end 
- 
+ if starting_point == 100
+   return 
  return starting_point
   
  end
