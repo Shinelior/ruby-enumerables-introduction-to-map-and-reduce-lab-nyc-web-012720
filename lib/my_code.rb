@@ -68,7 +68,7 @@ def  map_to_square(source_array)
    #source_array.reduce{|x,starting_point|  starting_point + x}
    
    #source_array.reduce(:+)
-   
+   total = 0
    
     i = 0
 
